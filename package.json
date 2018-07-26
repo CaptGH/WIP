@@ -1,8 +1,12 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "website",
+  "description": "",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": {
+    "name": "Austin Paquette",
+    "email": "austin@paquette.io",
+    "url": "https://www.austinpaquette.com"
+  },
   "dependencies": {
     "gatsby": "^1.9.277",
     "gatsby-link": "^1.6.46",
@@ -24,6 +28,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/CaptGH/WIP"
   }
 }

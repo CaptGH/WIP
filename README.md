@@ -1,2 +1,0 @@
-# WIP
-A fun website

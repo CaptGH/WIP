@@ -1,38 +1,28 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <style>
-        body {
-            background-color: lightblue;
-        }
-    </style>
+    <head>
+        <link rel="stylesheet" type="text/css" href="main.css">
     </head>
-        <body>
-
-    <i>
-<h1 style="text-align:center;">
-    Insert Heading Here</h1>
-    </i>
-           
-            <p style="text-align:center;">Something here?</p>
-    
-    <title>Title</title>
-            
-            <p id="demo"></p>
-            
-<script>
-var list, text, fLen, i;
-
-list = ["URL or Button?", "URL or Button?", "URL or Button?", "URL or Button?"];
-fLen = list.length;
-text = "<ul>";
-for (i = 0; i < fLen; i++) {
-    text += "<li>" + list[i] + "</li>";
-}
-text += "</ul>";
-document.getElementById("demo").innerHTML = text;
-</script>               
-            
+    <body>
+        <i>
+            <h1>Insert Heading Here</h1>
+        </i>
+        <p>Something here?</p>
+            <title>Title</title>
+        <p id="demo"></p>    
+        
+        <script>
+        var list, text, fLen, i;
+        
+        list = ["URL or Button?", "URL or Button?", "URL or Button?", "URL or Button?"];
+        fLen = list.length;
+        text = "<ul>";
+        for (i = 0; i < fLen; i++) {
+            text += "<li>" + list[i] + "</li>";
+        }
+        text += "</ul>";
+        document.getElementById("demo").innerHTML = text;
+        </script>               
     </body>
 </html>
     
